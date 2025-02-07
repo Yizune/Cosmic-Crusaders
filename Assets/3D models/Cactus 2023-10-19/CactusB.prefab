@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6724305551895111481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6249920913828762009}
+  - component: {fileID: 8561033504115051410}
+  - component: {fileID: 5030734270766610305}
+  - component: {fileID: 6424394577297716364}
+  m_Layer: 8
+  m_Name: CactusB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6249920913828762009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724305551895111481}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7498314905509808881}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8561033504115051410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724305551895111481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b0169088e524d14a9c97681200d62d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  includeLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  offset: -0.4
+--- !u!114 &5030734270766610305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724305551895111481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4feba93575280f49b035da44403cb07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: -1
+  includeLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  onDoDamage:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!135 &6424394577297716364
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724305551895111481}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.3
+  m_Center: {x: 0.3, y: 0.81, z: -0.17}
+--- !u!1001 &8036080695242698010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6249920913828762009}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.3569631
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.8300954
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.39354593
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.16923521
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -226.538
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 50.731003
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_Name
+      value: Vera_3D-Model_Cactus_B_UP
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 36aabdab64d1d7c45a347dce0feccd9c, type: 3}
+--- !u!4 &7498314905509808881 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 36aabdab64d1d7c45a347dce0feccd9c,
+    type: 3}
+  m_PrefabInstance: {fileID: 8036080695242698010}
+  m_PrefabAsset: {fileID: 0}
